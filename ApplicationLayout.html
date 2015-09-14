@@ -1,0 +1,19 @@
+  <!-- Application Layout -->
+<template name="ApplicationLayout">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{title}}</title>
+  </head>
+  <body class="bg-image">
+    <div class="container">
+      <content>
+        {{> yield}}
+      </content>
+      <footer class="footer">
+        <p class="text-center">Made with <a href=""><i class="fa fa-heart" style="color: #cf4646;"></i></a> by the hackUSU Team</p>
+      </footer>
+    </div> <!-- /container -->
+  </body>
+</html>
+</template>

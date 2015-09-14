@@ -1,5 +1,9 @@
 /* CSS declarations go here */
 
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
 /* Custom Layout for the page */
 /* Space out content a bit */
 body {

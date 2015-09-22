@@ -1,8 +1,45 @@
 /* CSS declarations go here */
 
 
-* {
-  font-family: 'Raleway', sans-serif;
+/* Date Tag */
+.dateposted {
+  width: 60px;
+  background: #fff;
+  height: 60px;
+  display: block;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-bottom-left-radius: .25em;
+  border-bottom-right-radius: .25em;
+}
+
+.month, .day {
+  display: block;
+  text-align: center;
+}
+
+.month {
+  border-top-left-radius: .25em;
+  border-top-right-radius: .25em;
+  background: #18bc9c;
+  line-height: 1;
+  padding: 3px 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.day {
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 2px;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', sans-serif;
 }
 /* Custom Layout for the page */
 /* Space out content a bit */
@@ -26,6 +63,11 @@ body {
   padding-left: 15px;
 }
 
+.social-icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* Custom page header */
 .header {
   padding-bottom: 20px;
@@ -41,6 +83,27 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+/* Event Logo */
+.event-logo {
+  height: auto;
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* Free Button */
+.btn-free {
+  float: right;
+  padding: 5px;
+}
+
+/* Event Padding for Well */
+.well-event {
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
 /* Custom Logo Size */
 .top-logo {
   height: 75px;
